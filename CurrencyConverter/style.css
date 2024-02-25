@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  background-color: #f3de8a;
+  background: hsla(48, 81%, 75%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(48, 81%, 75%, 1) 0%,
+    hsla(297, 50%, 51%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(48, 81%, 75%, 1) 0%,
+    hsla(297, 50%, 51%, 1) 100%
+  );
+}
+.container {
+  background-color: #f9f8f8;
+  border-radius: 30px;
+  padding: 2rem;
+  width: 50vh;
+  height: 62vh;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 7px 2px #f9f8f8;
+}
+h1 {
+  text-align: center;
+  padding-bottom: 20px;
+  font-family: "Varela Round", sans-serif;
+}
+form {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+form select,
+button,
+input {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 0.75rem;
+}
+.dropdown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+form input {
+  border: 1px solid lightgray;
+  height: 2.5rem;
+  font-size: 1rem;
+  padding-left: 1rem;
+  padding-left: 1rem;
+}
+label {
+  font-size: 1.15rem;
+  font-family: "Consolas", Courier, monospace;
+}
+.select-container img {
+  width: 2.5rem;
+}
+i {
+  font-size: 2rem;
+}
+.dropdown p {
+  font-size: 1.15rem;
+  font-family: "Consolas", Courier, monospace;
+}
+#btn {
+  margin-top: 2rem;
+  padding: 10px;
+  border-radius: 20px;
+  font-weight: bold;
+  background-color: #272838;
+  color: white;
+  cursor: pointer;
+  font-family: "Varela Round", sans-serif;
+}
+.select-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 6.2rem;
+  border: 2px solid lightgray;
+  border-radius: 0.5rem;
+  padding: 3px;
+}
+/* .select-container #to , #from{
+    height: 3rem;
+    padding: 0.1px;
+    width: 4rem;
+    
+} */
+select {
+  font-size: 0.9rem;
+  width: auto;
+  font-family: "Consolas", Courier, monospace;
+  font-weight: bold;
+}
+.msg {
+  padding-top: 1.15rem;
+  font-size: 2rem;
+  font-family: "Teko", sans-serif;
+  text-align: center;
+}

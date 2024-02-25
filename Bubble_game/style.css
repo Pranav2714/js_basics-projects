@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#main {
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(106, 144, 104, 0.663);
+  display: flex;
+}
+#panel {
+  overflow: hidden;
+  height: 90%;
+  width: 80%;
+  background-color: #fff;
+  border-radius: 10px;
+}
+#ptop {
+  display: flex;
+  padding: 0 20%;
+  background-color: rgba(27, 83, 27, 0.752);
+  height: 100px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  color: #fff;
+  font-family: "Silkscreen", sans-serif;
+}
+.elems {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 25px;
+  cursor: pointer;
+}
+.box {
+  padding: 10px;
+  border-radius: 15px;
+  font-weight: 600;
+  font-size: 20px;
+  width: 70px;
+  color: rgb(24, 76, 24);
+  background-color: white;
+  text-align: center;
+  height: 45px;
+  cursor: pointer;
+}
+#pbtm {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  height: calc(100% - 100px);
+  background-color: #ffff;
+  padding: 35px;
+  gap: 10px;
+  font-family: "Russo One", sans-serif;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.bubble {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(27, 83, 27, 0.752);
+  padding: 30px;
+  border-radius: 60%;
+  font-size: 25px;
+  font-weight: 400;
+  color: #fff;
+  height: 60px;
+  width: 60px;
+}
+.bubble:hover {
+  cursor: pointer;
+  background-color: rgba(33, 110, 33, 0.952);
+}
+#newGame {
+  /* visibility: hidden; */
+  margin-left: 20px;
+  padding: 15px;
+  background: white;
+  color: #000;
+  border-radius: 10px;
+  border: none;
+  font-family: "Russo One", sans-serif;
+  cursor: pointer;
+}
